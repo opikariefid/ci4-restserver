@@ -9,7 +9,14 @@ class Kontrakan extends ResourceController
  
     public function index()
     {
-        return $this->respond($this->model->findAll(), 200);
+        $data = $this->model->findAll();
+        $new_data = array();
+        foreach ($data as $key => $value) {
+            $value['urlGambarKontrakan'] = unserialize($value['urlGambarKontrakan']);
+            $value['disimpanUser'] = unserialize($value['disimpanUser']);
+            $new_data[$key] = $value;
+        }
+        return $this->respond($new_data, 200);
     }
     
     public function create()
@@ -85,6 +92,9 @@ class Kontrakan extends ResourceController
     public function show($id = NULL)
     {
         $get = $this->model->getKontrakan($id);
+        $get['urlGambarKontrakan'] = unserialize($get['urlGambarKontrakan']);
+        $get['disimpanUser'] = unserialize($get['disimpanUser']);
+        
         if($get){
             $code = 200;
             $response = [
@@ -184,10 +194,10 @@ class Kontrakan extends ResourceController
 
         $getUID = $this->model->getUsers($data['uid']);
         $getUID = $data['uid'];
-        $get = $this->model->getKontrakan();
+        $get = $this->model->getKontrakan($id);
 
         $cek = array();
-        $cek = unserialize($get[0]['disimpanUser']);
+        $cek = unserialize($get['disimpanUser']);
         $sudahAda = 0;
         $posisi = 0;
         
@@ -274,5 +284,57 @@ class Kontrakan extends ResourceController
             ];
         }
         return $this->respond($response, $code);
+    }
+
+    public function ambil_kontrakan($id = NULL)
+    {
+        $validation =  \Config\Services::validation();
+
+        $data = $this->request->getRawInput();
+
+        $users = $this->model->getUsers($data['uid']);
+        $uid = $data['uid'];
+
+        $transaksi = array();
+        $transaksi = unserialize($users['transaksi']);
+
+        $sudahAda = 0;
+        
+        foreach ($transaksi as $key => $value) {
+            if($id == $value['idKontrakan']){
+                $sudahAda = 1;
+                break;
+            }
+        }
+        if($sudahAda == 0){
+            array_push($transaksi,array("idKontrakan" => $id,"status"=>0));
+        }
+        
+        if($validation->run($data, 'userfav') == FALSE){
+            $response = [
+                'status' => 500,
+                'error' => true,
+                'data' => $validation->getErrors(),
+            ];
+            return $this->respond($response, 500);
+        } else {
+            $table = [
+                'transaksi' => serialize($transaksi)
+            ];
+            $simpan = $this->model->updateUsersTransaksi($table,$uid);
+            if($simpan){
+                if($sudahAda == 0){
+                    $msg = ['message' => 'Ambil Kontrakan berhasil.'];
+                } else {
+                    $msg = ['message' => 'Kontrakan sudah diambil'];
+                }
+                $response = [
+                    'status' => 200,
+                    'error' => false,
+                    'data' => $msg,
+                ];
+                return $this->respond($response, 200);
+            }
+        }
     }
 }

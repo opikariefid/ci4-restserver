@@ -23,6 +23,7 @@ $routes->set404Override();
 $routes->setAutoRoute(true);
 
 $routes->put('kontrakan/(:segment)/favorite', 'Kontrakan::favorite/$1');
+$routes->put('kontrakan/(:segment)/ambil', 'Kontrakan::ambil_kontrakan/$1');
 $routes->get('kontrakan/city/(:segment)', 'Kontrakan::by_city/$1');
 $routes->get('kontrakan/filter/under20', 'Kontrakan::f_under20');
 

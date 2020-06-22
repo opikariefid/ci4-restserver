@@ -254,3 +254,73 @@ CRITICAL - 2020-06-22 04:31:21 --> array_push() expects at least 2 parameters, 1
 #5 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\public\index.php(45): CodeIgniter\CodeIgniter->run()
 #6 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\Commands\Server\rewrite.php(34): require_once('D:\\Opikarief\\Do...')
 #7 {main}
+CRITICAL - 2020-06-22 05:45:21 --> Illegal string offset 'urlGambarKontrakan'
+#0 D:\Opikarief\Document\Web\xampp\htdocs\latihan\ci4-restserver\app\Controllers\Kontrakan.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'D:\\Opikarief\\Do...', 89, Array)
+#1 D:\Opikarief\Document\Web\xampp\htdocs\latihan\ci4-restserver\system\CodeIgniter.php(914): App\Controllers\Kontrakan->show('2')
+#2 D:\Opikarief\Document\Web\xampp\htdocs\latihan\ci4-restserver\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kontrakan))
+#3 D:\Opikarief\Document\Web\xampp\htdocs\latihan\ci4-restserver\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Opikarief\Document\Web\xampp\htdocs\latihan\ci4-restserver\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Opikarief\Document\Web\xampp\htdocs\latihan\ci4-restserver\system\Commands\Server\rewrite.php(34): require_once('D:\\Opikarief\\Do...')
+#6 {main}
+CRITICAL - 2020-06-22 05:45:24 --> Illegal string offset 'urlGambarKontrakan'
+#0 D:\Opikarief\Document\Web\xampp\htdocs\latihan\ci4-restserver\app\Controllers\Kontrakan.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'D:\\Opikarief\\Do...', 89, Array)
+#1 D:\Opikarief\Document\Web\xampp\htdocs\latihan\ci4-restserver\system\CodeIgniter.php(914): App\Controllers\Kontrakan->show('2')
+#2 D:\Opikarief\Document\Web\xampp\htdocs\latihan\ci4-restserver\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kontrakan))
+#3 D:\Opikarief\Document\Web\xampp\htdocs\latihan\ci4-restserver\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Opikarief\Document\Web\xampp\htdocs\latihan\ci4-restserver\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Opikarief\Document\Web\xampp\htdocs\latihan\ci4-restserver\system\Commands\Server\rewrite.php(34): require_once('D:\\Opikarief\\Do...')
+#6 {main}
+CRITICAL - 2020-06-22 05:45:30 --> Illegal string offset 'urlGambarKontrakan'
+#0 D:\Opikarief\Document\Web\xampp\htdocs\latihan\ci4-restserver\app\Controllers\Kontrakan.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'D:\\Opikarief\\Do...', 89, Array)
+#1 D:\Opikarief\Document\Web\xampp\htdocs\latihan\ci4-restserver\system\CodeIgniter.php(914): App\Controllers\Kontrakan->show('2')
+#2 D:\Opikarief\Document\Web\xampp\htdocs\latihan\ci4-restserver\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kontrakan))
+#3 D:\Opikarief\Document\Web\xampp\htdocs\latihan\ci4-restserver\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Opikarief\Document\Web\xampp\htdocs\latihan\ci4-restserver\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Opikarief\Document\Web\xampp\htdocs\latihan\ci4-restserver\system\Commands\Server\rewrite.php(34): require_once('D:\\Opikarief\\Do...')
+#6 {main}
+CRITICAL - 2020-06-22 05:45:42 --> Illegal string offset 'urlGambarKontrakan'
+#0 D:\Opikarief\Document\Web\xampp\htdocs\latihan\ci4-restserver\app\Controllers\Kontrakan.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'D:\\Opikarief\\Do...', 89, Array)
+#1 D:\Opikarief\Document\Web\xampp\htdocs\latihan\ci4-restserver\system\CodeIgniter.php(914): App\Controllers\Kontrakan->show('2')
+#2 D:\Opikarief\Document\Web\xampp\htdocs\latihan\ci4-restserver\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kontrakan))
+#3 D:\Opikarief\Document\Web\xampp\htdocs\latihan\ci4-restserver\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Opikarief\Document\Web\xampp\htdocs\latihan\ci4-restserver\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Opikarief\Document\Web\xampp\htdocs\latihan\ci4-restserver\system\Commands\Server\rewrite.php(34): require_once('D:\\Opikarief\\Do...')
+#6 {main}
+CRITICAL - 2020-06-22 05:49:07 --> Cannot use object of type CodeIgniter\HTTP\ContentSecurityPolicy as array
+#0 D:\Opikarief\Document\Web\xampp\htdocs\latihan\ci4-restserver\system\CodeIgniter.php(914): App\Controllers\Kontrakan->index()
+#1 D:\Opikarief\Document\Web\xampp\htdocs\latihan\ci4-restserver\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kontrakan))
+#2 D:\Opikarief\Document\Web\xampp\htdocs\latihan\ci4-restserver\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Opikarief\Document\Web\xampp\htdocs\latihan\ci4-restserver\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\Opikarief\Document\Web\xampp\htdocs\latihan\ci4-restserver\system\Commands\Server\rewrite.php(34): require_once('D:\\Opikarief\\Do...')
+#5 {main}
+CRITICAL - 2020-06-22 05:49:43 --> Cannot use object of type CodeIgniter\HTTP\ContentSecurityPolicy as array
+#0 D:\Opikarief\Document\Web\xampp\htdocs\latihan\ci4-restserver\system\CodeIgniter.php(914): App\Controllers\Kontrakan->index()
+#1 D:\Opikarief\Document\Web\xampp\htdocs\latihan\ci4-restserver\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kontrakan))
+#2 D:\Opikarief\Document\Web\xampp\htdocs\latihan\ci4-restserver\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Opikarief\Document\Web\xampp\htdocs\latihan\ci4-restserver\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\Opikarief\Document\Web\xampp\htdocs\latihan\ci4-restserver\system\Commands\Server\rewrite.php(34): require_once('D:\\Opikarief\\Do...')
+#5 {main}
+CRITICAL - 2020-06-22 06:14:22 --> Invalid argument supplied for foreach()
+#0 D:\Opikarief\Document\Web\xampp\htdocs\latihan\ci4-restserver\app\Controllers\Kontrakan.php(304): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'D:\\Opikarief\\Do...', 304, Array)
+#1 D:\Opikarief\Document\Web\xampp\htdocs\latihan\ci4-restserver\system\CodeIgniter.php(914): App\Controllers\Kontrakan->ambil_kontrakan('2')
+#2 D:\Opikarief\Document\Web\xampp\htdocs\latihan\ci4-restserver\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kontrakan))
+#3 D:\Opikarief\Document\Web\xampp\htdocs\latihan\ci4-restserver\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Opikarief\Document\Web\xampp\htdocs\latihan\ci4-restserver\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Opikarief\Document\Web\xampp\htdocs\latihan\ci4-restserver\system\Commands\Server\rewrite.php(34): require_once('D:\\Opikarief\\Do...')
+#6 {main}
+CRITICAL - 2020-06-22 06:14:32 --> Invalid argument supplied for foreach()
+#0 D:\Opikarief\Document\Web\xampp\htdocs\latihan\ci4-restserver\app\Controllers\Kontrakan.php(304): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'D:\\Opikarief\\Do...', 304, Array)
+#1 D:\Opikarief\Document\Web\xampp\htdocs\latihan\ci4-restserver\system\CodeIgniter.php(914): App\Controllers\Kontrakan->ambil_kontrakan('2')
+#2 D:\Opikarief\Document\Web\xampp\htdocs\latihan\ci4-restserver\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kontrakan))
+#3 D:\Opikarief\Document\Web\xampp\htdocs\latihan\ci4-restserver\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Opikarief\Document\Web\xampp\htdocs\latihan\ci4-restserver\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Opikarief\Document\Web\xampp\htdocs\latihan\ci4-restserver\system\Commands\Server\rewrite.php(34): require_once('D:\\Opikarief\\Do...')
+#6 {main}
+CRITICAL - 2020-06-22 06:16:00 --> Invalid argument supplied for foreach()
+#0 D:\Opikarief\Document\Web\xampp\htdocs\latihan\ci4-restserver\app\Controllers\Kontrakan.php(304): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'D:\\Opikarief\\Do...', 304, Array)
+#1 D:\Opikarief\Document\Web\xampp\htdocs\latihan\ci4-restserver\system\CodeIgniter.php(914): App\Controllers\Kontrakan->ambil_kontrakan('2')
+#2 D:\Opikarief\Document\Web\xampp\htdocs\latihan\ci4-restserver\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kontrakan))
+#3 D:\Opikarief\Document\Web\xampp\htdocs\latihan\ci4-restserver\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Opikarief\Document\Web\xampp\htdocs\latihan\ci4-restserver\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Opikarief\Document\Web\xampp\htdocs\latihan\ci4-restserver\system\Commands\Server\rewrite.php(34): require_once('D:\\Opikarief\\Do...')
+#6 {main}

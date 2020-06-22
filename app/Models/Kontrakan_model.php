@@ -37,6 +37,11 @@ class Kontrakan_model extends Model {
     {
         return $this->db->table($this->table)->delete(['idKontrakan' => $id]);
     }
+ 
+    public function updateUsersTransaksi($data, $id)
+    {
+        return $this->db->table($this->tableUser)->update($data, ['uid' => $id]);
+    }
 
     public function getKontrakanUnder20()
     {

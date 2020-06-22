@@ -9,7 +9,13 @@ class Users extends ResourceController
  
     public function index()
     {
-        return $this->respond($this->model->findAll(), 200);
+        $data = $this->model->findAll();
+        $new_data = array();
+        foreach ($data as $key => $value) {
+            $value['transaksi'] = unserialize($value['transaksi']);
+            $new_data[$key] = $value;
+        }
+        return $this->respond($new_data, 200);
     }
     
     public function create()
@@ -20,7 +26,8 @@ class Users extends ResourceController
         $uid   = $this->request->getPost('uid');
         $displayName = $this->request->getPost('displayName');
         $emailUser = $this->request->getPost('emailUser');
-        $transaksi = $this->request->getPost('transaksi');
+        $blankArr = array();
+        $transaksi = serialize($blankArr);
 
         $data = [
             'uid' => $uid,
