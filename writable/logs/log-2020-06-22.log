@@ -1,0 +1,256 @@
+CRITICAL - 2020-06-22 01:25:12 --> Class 'App\Database\Seeds\KontrakanSeeder' not found
+#0 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\Commands\Database\Seed.php(124): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#1 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\CLI\CommandRunner.php(137): CodeIgniter\Commands\Database\Seed->run(Array)
+#2 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\CLI\CommandRunner.php(110): CodeIgniter\CLI\CommandRunner->runCommand('db:seed', Array)
+#3 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\CLI\CommandRunner.php(86): CodeIgniter\CLI\CommandRunner->index(Array)
+#4 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\CodeIgniter.php(910): CodeIgniter\CLI\CommandRunner->_remap('index', 'db:seed', 'KontrakanSeeder')
+#5 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#6 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\CLI\Console.php(86): CodeIgniter\CodeIgniter->run()
+#8 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\spark(57): CodeIgniter\CLI\Console->run()
+#9 {main}
+CRITICAL - 2020-06-22 01:25:34 --> Call to undefined function App\Database\Seeds\now()
+#0 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\Database\Seeder.php(174): App\Database\Seeds\KontrakanSeeder->run()
+#1 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\Commands\Database\Seed.php(124): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#2 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\CLI\CommandRunner.php(137): CodeIgniter\Commands\Database\Seed->run(Array)
+#3 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\CLI\CommandRunner.php(110): CodeIgniter\CLI\CommandRunner->runCommand('db:seed', Array)
+#4 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\CLI\CommandRunner.php(86): CodeIgniter\CLI\CommandRunner->index(Array)
+#5 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\CodeIgniter.php(910): CodeIgniter\CLI\CommandRunner->_remap('index', 'db:seed', 'KontrakanSeeder')
+#6 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#7 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\CLI\Console.php(86): CodeIgniter\CodeIgniter->run()
+#9 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\spark(57): CodeIgniter\CLI\Console->run()
+#10 {main}
+CRITICAL - 2020-06-22 01:29:23 --> Call to undefined function App\Database\Seeds\now()
+#0 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\Database\Seeder.php(174): App\Database\Seeds\KontrakanSeeder->run()
+#1 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\Commands\Database\Seed.php(124): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#2 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\CLI\CommandRunner.php(137): CodeIgniter\Commands\Database\Seed->run(Array)
+#3 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\CLI\CommandRunner.php(110): CodeIgniter\CLI\CommandRunner->runCommand('db:seed', Array)
+#4 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\CLI\CommandRunner.php(86): CodeIgniter\CLI\CommandRunner->index(Array)
+#5 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\CodeIgniter.php(910): CodeIgniter\CLI\CommandRunner->_remap('index', 'db:seed', 'KontrakanSeeder')
+#6 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#7 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\CLI\Console.php(86): CodeIgniter\CodeIgniter->run()
+#9 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\spark(57): CodeIgniter\CLI\Console->run()
+#10 {main}
+CRITICAL - 2020-06-22 01:45:32 --> Declaration of App\Models\Kontrakan_model::update($data, $id) must be compatible with CodeIgniter\Model::update($id = NULL, $data = NULL): bool
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-06-22 01:48:00 --> Declaration of App\Models\Kontrakan_model::update($data, $id) must be compatible with CodeIgniter\Model::update($id = NULL, $data = NULL): bool
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-06-22 01:57:15 --> {0} is not a validation rules group.
+#0 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\Validation\Validation.php(588): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound('kontrakan')
+#1 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup('kontrakan')
+#2 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\app\Controllers\Kontrakan.php(65): CodeIgniter\Validation\Validation->run(Array, 'kontrakan')
+#3 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\CodeIgniter.php(914): App\Controllers\Kontrakan->create()
+#4 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kontrakan))
+#5 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\Commands\Server\rewrite.php(34): require_once('D:\\Opikarief\\Do...')
+#8 {main}
+CRITICAL - 2020-06-22 01:57:44 --> {0} is not a validation rules group.
+#0 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\Validation\Validation.php(588): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound('kontrakan')
+#1 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup('kontrakan')
+#2 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\app\Controllers\Kontrakan.php(65): CodeIgniter\Validation\Validation->run(Array, 'kontrakan')
+#3 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\CodeIgniter.php(914): App\Controllers\Kontrakan->create()
+#4 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kontrakan))
+#5 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\Commands\Server\rewrite.php(34): require_once('D:\\Opikarief\\Do...')
+#8 {main}
+CRITICAL - 2020-06-22 02:24:55 --> Call to undefined function App\Controllers\now()
+#0 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\CodeIgniter.php(914): App\Controllers\Kontrakan->create()
+#1 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kontrakan))
+#2 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\Commands\Server\rewrite.php(34): require_once('D:\\Opikarief\\Do...')
+#5 {main}
+CRITICAL - 2020-06-22 02:31:17 --> {0} is not a validation rules group.
+#0 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\Validation\Validation.php(588): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound('Kontrakan')
+#1 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup('Kontrakan')
+#2 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\app\Controllers\Kontrakan.php(134): CodeIgniter\Validation\Validation->run(Array, 'Kontrakan')
+#3 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\CodeIgniter.php(914): App\Controllers\Kontrakan->update('2')
+#4 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kontrakan))
+#5 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\Commands\Server\rewrite.php(34): require_once('D:\\Opikarief\\Do...')
+#8 {main}
+CRITICAL - 2020-06-22 02:32:28 --> {0} is not a validation rules group.
+#0 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\Validation\Validation.php(588): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound('Kontrakan')
+#1 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup('Kontrakan')
+#2 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\app\Controllers\Kontrakan.php(134): CodeIgniter\Validation\Validation->run(Array, 'Kontrakan')
+#3 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\CodeIgniter.php(914): App\Controllers\Kontrakan->update('1')
+#4 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kontrakan))
+#5 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\Commands\Server\rewrite.php(34): require_once('D:\\Opikarief\\Do...')
+#8 {main}
+CRITICAL - 2020-06-22 02:33:17 --> {0} is not a validation rules group.
+#0 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\Validation\Validation.php(588): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound('Kontrakan')
+#1 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup('Kontrakan')
+#2 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\app\Controllers\Kontrakan.php(134): CodeIgniter\Validation\Validation->run(Array, 'Kontrakan')
+#3 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\CodeIgniter.php(914): App\Controllers\Kontrakan->update('1')
+#4 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kontrakan))
+#5 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\Commands\Server\rewrite.php(34): require_once('D:\\Opikarief\\Do...')
+#8 {main}
+CRITICAL - 2020-06-22 03:24:39 --> Call to undefined method App\Models\Kontrakan_model::getUsers
+#0 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\app\Controllers\Kontrakan.php(133): CodeIgniter\Model->__call('getUsers', Array)
+#1 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\CodeIgniter.php(914): App\Controllers\Kontrakan->favorite('1')
+#2 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kontrakan))
+#3 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\Commands\Server\rewrite.php(34): require_once('D:\\Opikarief\\Do...')
+#6 {main}
+CRITICAL - 2020-06-22 03:24:43 --> Call to undefined method App\Models\Kontrakan_model::getUsers
+#0 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\app\Controllers\Kontrakan.php(133): CodeIgniter\Model->__call('getUsers', Array)
+#1 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\CodeIgniter.php(914): App\Controllers\Kontrakan->favorite('1')
+#2 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kontrakan))
+#3 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\Commands\Server\rewrite.php(34): require_once('D:\\Opikarief\\Do...')
+#6 {main}
+CRITICAL - 2020-06-22 03:24:57 --> Call to undefined method App\Models\Kontrakan_model::getUsers
+#0 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\app\Controllers\Kontrakan.php(133): CodeIgniter\Model->__call('getUsers', Array)
+#1 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\CodeIgniter.php(914): App\Controllers\Kontrakan->favorite('1')
+#2 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kontrakan))
+#3 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\Commands\Server\rewrite.php(34): require_once('D:\\Opikarief\\Do...')
+#6 {main}
+CRITICAL - 2020-06-22 03:53:37 --> Use of undefined constant getUID - assumed 'getUID' (this will throw an Error in a future version of PHP)
+#0 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\app\Controllers\Kontrakan.php(139): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'D:\\Opikarief\\Do...', 139, Array)
+#1 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\CodeIgniter.php(914): App\Controllers\Kontrakan->favorite('1')
+#2 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kontrakan))
+#3 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\Commands\Server\rewrite.php(34): require_once('D:\\Opikarief\\Do...')
+#6 {main}
+CRITICAL - 2020-06-22 03:54:56 --> json_decode() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() e...', 'D:\\Opikarief\\Do...', 139, Array)
+#1 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\app\Controllers\Kontrakan.php(139): json_decode(Array)
+#2 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\CodeIgniter.php(914): App\Controllers\Kontrakan->favorite('1')
+#3 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kontrakan))
+#4 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\Commands\Server\rewrite.php(34): require_once('D:\\Opikarief\\Do...')
+#7 {main}
+CRITICAL - 2020-06-22 03:55:48 --> json_decode() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() e...', 'D:\\Opikarief\\Do...', 139, Array)
+#1 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\app\Controllers\Kontrakan.php(139): json_decode(Array)
+#2 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\CodeIgniter.php(914): App\Controllers\Kontrakan->favorite('1')
+#3 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kontrakan))
+#4 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\Commands\Server\rewrite.php(34): require_once('D:\\Opikarief\\Do...')
+#7 {main}
+CRITICAL - 2020-06-22 03:55:49 --> json_decode() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() e...', 'D:\\Opikarief\\Do...', 139, Array)
+#1 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\app\Controllers\Kontrakan.php(139): json_decode(Array)
+#2 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\CodeIgniter.php(914): App\Controllers\Kontrakan->favorite('1')
+#3 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kontrakan))
+#4 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\Commands\Server\rewrite.php(34): require_once('D:\\Opikarief\\Do...')
+#7 {main}
+CRITICAL - 2020-06-22 03:56:01 --> json_decode() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() e...', 'D:\\Opikarief\\Do...', 139, Array)
+#1 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\app\Controllers\Kontrakan.php(139): json_decode(Array)
+#2 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\CodeIgniter.php(914): App\Controllers\Kontrakan->favorite('1')
+#3 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kontrakan))
+#4 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\Commands\Server\rewrite.php(34): require_once('D:\\Opikarief\\Do...')
+#7 {main}
+CRITICAL - 2020-06-22 04:07:16 --> json_decode() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() e...', 'D:\\Opikarief\\Do...', 139, Array)
+#1 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\app\Controllers\Kontrakan.php(139): json_decode(Array, true)
+#2 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\CodeIgniter.php(914): App\Controllers\Kontrakan->favorite('1')
+#3 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kontrakan))
+#4 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\Commands\Server\rewrite.php(34): require_once('D:\\Opikarief\\Do...')
+#7 {main}
+CRITICAL - 2020-06-22 04:07:24 --> json_decode() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() e...', 'D:\\Opikarief\\Do...', 139, Array)
+#1 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\app\Controllers\Kontrakan.php(139): json_decode(Array, true)
+#2 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\CodeIgniter.php(914): App\Controllers\Kontrakan->favorite('1')
+#3 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kontrakan))
+#4 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\Commands\Server\rewrite.php(34): require_once('D:\\Opikarief\\Do...')
+#7 {main}
+CRITICAL - 2020-06-22 04:07:27 --> json_decode() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() e...', 'D:\\Opikarief\\Do...', 139, Array)
+#1 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\app\Controllers\Kontrakan.php(139): json_decode(Array, true)
+#2 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\CodeIgniter.php(914): App\Controllers\Kontrakan->favorite('1')
+#3 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kontrakan))
+#4 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\Commands\Server\rewrite.php(34): require_once('D:\\Opikarief\\Do...')
+#7 {main}
+CRITICAL - 2020-06-22 04:07:41 --> json_decode() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() e...', 'D:\\Opikarief\\Do...', 139, Array)
+#1 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\app\Controllers\Kontrakan.php(139): json_decode(Array, true)
+#2 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\CodeIgniter.php(914): App\Controllers\Kontrakan->favorite('1')
+#3 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kontrakan))
+#4 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\Commands\Server\rewrite.php(34): require_once('D:\\Opikarief\\Do...')
+#7 {main}
+CRITICAL - 2020-06-22 04:08:00 --> json_decode() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() e...', 'D:\\Opikarief\\Do...', 138, Array)
+#1 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\app\Controllers\Kontrakan.php(138): json_decode(Array, true)
+#2 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\CodeIgniter.php(914): App\Controllers\Kontrakan->favorite('1')
+#3 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kontrakan))
+#4 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\Commands\Server\rewrite.php(34): require_once('D:\\Opikarief\\Do...')
+#7 {main}
+CRITICAL - 2020-06-22 04:08:28 --> json_decode() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() e...', 'D:\\Opikarief\\Do...', 138, Array)
+#1 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\app\Controllers\Kontrakan.php(138): json_decode(Array, true)
+#2 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\CodeIgniter.php(914): App\Controllers\Kontrakan->favorite('1')
+#3 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kontrakan))
+#4 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\Commands\Server\rewrite.php(34): require_once('D:\\Opikarief\\Do...')
+#7 {main}
+CRITICAL - 2020-06-22 04:08:50 --> json_decode() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() e...', 'D:\\Opikarief\\Do...', 138, Array)
+#1 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\app\Controllers\Kontrakan.php(138): json_decode(Array)
+#2 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\CodeIgniter.php(914): App\Controllers\Kontrakan->favorite('1')
+#3 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kontrakan))
+#4 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\Commands\Server\rewrite.php(34): require_once('D:\\Opikarief\\Do...')
+#7 {main}
+CRITICAL - 2020-06-22 04:08:56 --> json_decode() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() e...', 'D:\\Opikarief\\Do...', 138, Array)
+#1 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\app\Controllers\Kontrakan.php(138): json_decode(Array)
+#2 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\CodeIgniter.php(914): App\Controllers\Kontrakan->favorite('1')
+#3 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kontrakan))
+#4 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\Commands\Server\rewrite.php(34): require_once('D:\\Opikarief\\Do...')
+#7 {main}
+CRITICAL - 2020-06-22 04:08:59 --> json_decode() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() e...', 'D:\\Opikarief\\Do...', 138, Array)
+#1 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\app\Controllers\Kontrakan.php(138): json_decode(Array, true)
+#2 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\CodeIgniter.php(914): App\Controllers\Kontrakan->favorite('1')
+#3 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kontrakan))
+#4 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\Commands\Server\rewrite.php(34): require_once('D:\\Opikarief\\Do...')
+#7 {main}
+CRITICAL - 2020-06-22 04:31:21 --> array_push() expects at least 2 parameters, 1 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_push() ex...', 'D:\\Opikarief\\Do...', 151, Array)
+#1 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\app\Controllers\Kontrakan.php(151): array_push(Array)
+#2 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\CodeIgniter.php(914): App\Controllers\Kontrakan->favorite('1')
+#3 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kontrakan))
+#4 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Opikarief\Document\Web\xampp\htdocs\latihan\codeigniter4-restapi\system\Commands\Server\rewrite.php(34): require_once('D:\\Opikarief\\Do...')
+#7 {main}
